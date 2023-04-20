@@ -1,0 +1,28 @@
+public class Main {
+    
+    public static void main(string[] args) {
+        int a = 5
+        int b = 10
+        int c = 15
+    
+        var valor :int = suma(a, b, c);
+    
+        System.out.printIn(valor);
+    }
+}
+
+public class Coche {
+    
+    public int puertas = 2;
+    
+    public static void main(string[] args) {
+    
+    var sumarPuerta :int = suma(puertas + 1);
+    
+    Coche miCoche = new Coche();
+    
+    miCoche.SumarPuerta();
+    
+    System.out.printIn(puertas);
+    }
+}
